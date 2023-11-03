@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ข้อมูลพื้นฐานของเว็บไซต์ -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Basic Html" />
+    <meta name="keywords" content="fujipp" />
+    <title>Html พื้นฐาน</title>
+  </head>
+  <body>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+
+    <p>test type text</p>
+
+    <a href="https://www.fujipp.com/">www.fujipp.com</a>
+    <!-- สร้างเส้นขั้น -->
+    <hr />
+    <!-- การคอมเม้น [ Ctrl + / ]-->
+
+    <p>
+      <!-- lorem ตามด้วยจำนวณ -->
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse excepturi
+      <br />
+      blanditiis veniam. Hic temporibus illo, porro velit tenetur error iusto
+      <br />
+      accusamus beatae et laborum earum eveniet excepturi, aut vel magnam.
+    </p>
+
+    <!-- small=ตัวบาง 
+        strong=ตัวหนา 
+        i=ตัวเอง 
+        b=ตัวหนา 
+        u=ขีดเส้นใต้ 
+        del=ขีดฆ่าข้อความ 
+        mark=ไฮไลท์ 
+        ins=ขีดเส้นใต้-->
+    <p>
+      <small>Lorem ipsum dolor sit,</small>
+      <ins>amet consectetur adipisicing elit.</ins>
+      <strong>Voluptate aliquid labore</strong>
+      <mark>mollitia quibusdam vitae.</mark>
+      <i>Molestias quia, facere mollitia</i>
+      <del>animi illum suscipit atque</del> <b>corporis, iusto possimus</b> illo
+      <u>debitis ad placeat? Nihil!</u>
+    </p>
+
+    <!-- sup=ยกกำลังข้สงบน 
+        sub=ยกกำลังข้างล่าง-->
+    <h1>E=mc<sup>2</sup></h1>
+    <h1>H<sub>2</sub>O</h1>
+    <!-- สร้างเส้นขั้น -->
+    <hr />
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      similique blanditiis inventore voluptatum reprehenderit sunt fuga. Totam
+      natus eum accusamus reprehenderit quia in accusantium qui atque. Aliquid
+      distinctio reprehenderit fugit.
+    </p>
+
+    <hr />
+    <!-- internal => เชื่อมโยงเว็บไซต์ในฟไล์เดียวกัน -->
+    <a href="page2.html">PAGE2</a>
+    <a href="page3.html" target="_blank">PAGE3</a>
+    <a href="shopping/shop.html" target="_blank">SHOP</a>
+    <!-- external => เชื่อมโยงเว็บไซต์ในฟไล์เดียวกัน -->
+    <a href="http://www.google.com" target="_blank">GOOGLE</a>
+    <a href="http://www.youtube.com">YOUTUBE</a>
+    <hr />
+    <!-- internal => เชื่อมโยงเว็บไซต์ในฟไล์เดียวกัน -->
+    <img src="image/toon1.jpg" alt="" width="100px" height="100px" />
+    <p>pic 1</p>
+    <img src="image/toon2.jpg" alt="" width="100px" height="100px" />
+    <p>pic 2</p>
+    <!-- external => เชื่อมโยงเว็บไซต์ในฟไล์เดียวกัน -->
+    <a
+      href="https://www.google.com/search?q=anime+xdx&tbm=isch&ved=2ahUKEwjOr5LS-qWCAxVX5TgGHdXRC4kQ2-cCegQIABAA&oq=anime+xdx&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6CAgAEIAEELEDOgQIABAeOgYIABAIEB5QqQdYvhFgxBJoAHAAeACAAVSIAfUDkgEBN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=KOxDZc77PNfK4-EP1aOvyAg&bih=835&biw=1470#imgrc=uGzUvRBAlJXpBM"
+    >
+      <img
+        src="https://media.hitekno.com/thumbs/2021/12/14/36253-rias-gremory-high-school-dxd/730x480-img-36253-rias-gremory-high-school-dxd.jpg"
+        alt=""
+        width="100px"
+        height="100px"
+      />
+    </a>
+    <p>ANIME</p>
+    <hr />
+    <!-- A a i 1 ใช้แบบเรียงลำดับ-->
+    <ol type="1">
+      <li>test</li>
+      <li>test</li>
+      <li>test</li>
+    </ol>
+    <!-- disc-จุดสีดำ 
+        circle-จุดวงกลมโปร่ง 
+        square-สีเปลี่ยมทึบดำ -->
+    <ul type="circle">
+      <li>test</li>
+      <li>test</li>
+      <li>test</li>
+    </ul>
+
+    <ol type="1">
+      <li>test</li>
+      <ul type="circle">
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+      </ul>
+      <li>test</li>
+      <ul type="circle">
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+      </ul>
+      <li>test</li>
+      <ul type="circle">
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+      </ul>
+    </ol>
+
+    <hr />
+    <table border="1" cellpadding="2">
+      <thead>
+        <th>Test1</th>
+        <th>Test1</th>
+        <th>Test1</th>
+        <th>Test1</th>
+      </thead>
+      <tbody>
+        <tr>
+          Test1
+          <td>test2</td>
+          <td>test2</td>
+        </tr>
+        <tr>
+          Test1
+          <td>test2</td>
+          <td>test2</td>
+        </tr>
+        <tr>
+          Test1
+          <td>test2</td>
+          <td>test2</td>
+        </tr>
+        <tr bgcolor="red">
+          Test1
+          <td>test2</td>
+          <td>test2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          Test1
+          <td colspan="3">test2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
